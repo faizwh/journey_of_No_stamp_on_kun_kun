@@ -1,0 +1,10 @@
+debug/firstgame.o
+debug/have_a_try.o
+debug/main.o
+debug/mainwindow.o
+debug/startpage.o
+debug/qrc_pictures.o
+debug/moc_firstgame.o
+debug/moc_have_a_try.o
+debug/moc_mainwindow.o
+debug/moc_startpage.o
