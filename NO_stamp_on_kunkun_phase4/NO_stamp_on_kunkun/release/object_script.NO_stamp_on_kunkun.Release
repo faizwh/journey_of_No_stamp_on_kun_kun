@@ -1,0 +1,10 @@
+release/firstgame.o
+release/have_a_try.o
+release/main.o
+release/mainwindow.o
+release/startpage.o
+release/qrc_pictures.o
+release/moc_firstgame.o
+release/moc_have_a_try.o
+release/moc_mainwindow.o
+release/moc_startpage.o
