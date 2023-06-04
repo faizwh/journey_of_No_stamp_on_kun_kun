@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>lighting_kunkun.jpg</file>
+        <file>jojokun.jpeg</file>
+        <file>ding_zhen_555.jpeg</file>
+        <file>kunkun_chicken.jpg</file>
+        <file>kun_kun_zi.jpg</file>
+        <file>kunkun_block.jpg</file>
+        <file>faiz_block.jpg</file>
+    </qresource>
+</RCC>
