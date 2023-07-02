@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/new/kuang">
+        <file>Happy.mp3</file>
+        <file>kunkun's music.mp3</file>
+        <file>yin.mp3</file>
+        <file>you do what.mp3</file>
+        <file>ding.mp3</file>
+        <file>kun_kun_music.mp3</file>
+        <file>duck_music.mp3</file>
+        <file>duck_lose.mp3</file>
+    </qresource>
+</RCC>

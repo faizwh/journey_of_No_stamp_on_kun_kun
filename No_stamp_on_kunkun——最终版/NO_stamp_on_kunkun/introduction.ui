@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>introduction</class>
+ <widget class="QWidget" name="introduction">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1080</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-image: url(:/star.jpg);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>1000</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 20pt &quot;华文楷体&quot;;
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(76, 170, 119, 255), stop:1 rgba(255, 255, 255, 255));</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;本游戏名为《别踩坤坤》，致敬手机小游戏《别踩坤坤》，具有经典风味和个性色彩。初始界面有多个功能按键，接下来依次介绍这些功能与玩法。&lt;/p&gt;&lt;p&gt;1.“交（tiao）流（xi）”： 通过这里的“对话”，我们玩了一些梗，也在传达一些我们的想法，多次点击”交流“键，对话框会展示出不同的内容，碍于预设对话数量，尽管每次都不会和上次的话语一模一样，但是还是可能与上上次（以及上*n次）的一样，希望这个功能能给你带来快乐和鼓励&lt;/p&gt;&lt;p&gt;2.“开始游戏”： 点击开始游戏，将进入模式选择界面，可以选择“普通模式”与“无尽模式”（这两个模式将在后面介绍），也可以选择返回主菜单&lt;/p&gt;&lt;p&gt;3.“纪录与设置”：点击跳转“记录与设置”页面，在这里你可以查看到自己在两个模式内的最高得分，也可以选择将它们分别清零；你也可以选择切换主题，当前主题会得到显示，主题切换包括主界面背景音乐、游戏内“只因块”形象、按键敲击正确的音效，失败音效；如果觉得音量不合适，可以通过页面内的音量条进行调整，也可以直接进行“全静音”，不会改变音量条的原本数据，效果就像电脑右下角的音量控制一样&lt;/p&gt;&lt;p&gt;4.“游戏介绍”：你就是点进来才看到的&lt;/p&gt;&lt;p&gt;5.“坤坤拜拜”：直接关闭程序&lt;/p&gt;&lt;p&gt;6.游戏玩法：游戏开始后，左侧栏是功能键，选择重开后数据清零，画面重置，选择“退回主菜单”“退回选择界面”就会跳转相应界面，右侧底部是按键指示，即“ASDJKL”6大键位，你需要根据当前方块最底下一行唯一的“只因块”所在位置敲击对应键位，敲击正确会有提示音效，敲击失败会弹出窗口，显示最终得分，点击弹窗的“OK”后，游戏会重开，是否继续游玩可以自行选择。请放心，“重开”后游戏涉及的计时器不会自行启动，当你敲击6大键位中的一个，才视为游戏开始。&lt;/p&gt;&lt;p&gt;7.两种模式：“普通模式”下你有20s游玩时间，请在20s内尽可能多的敲击正确键位，得到更高分数；“无尽模式”下你有无尽的游玩时间，你可以无尽地敲击，直至敲错。无尽模式记录分数高低的标准是“敲击速度”，但考虑到长时间敲击后难免疲惫，“敲击速度”的结算数据并非单纯的“敲击次数/总时间”，我们希望这样能够鼓励你在生活中也要持之以恒，不要被生活的重担击垮。&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;最后，由衷的感谢你的玩耍，感谢小组成员在完全没有Qt基础下的努力，对于一些不完善的功能和bug为您带来的游戏过程中的不爽，我们由衷抱歉，希望在未来的作品中能得到避免。&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;共勉！&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>401</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 36pt &quot;华文隶书&quot;;
+background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));</string>
+   </property>
+   <property name="text">
+    <string>游戏介绍</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>819</x>
+     <y>37</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 18pt &quot;华文行楷&quot;;</string>
+   </property>
+   <property name="text">
+    <string>返回主菜单</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>110</y>
+     <width>1000</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>998</width>
+      <height>589</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
